@@ -1,0 +1,36 @@
+.main-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.welcome-message {
+    background-color: rgb(255, 147, 192);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.welcome-message h1 {
+    color: var(--primary-pink);
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+    }
+   
+    .nav-links {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+   
+    .nav-links li {
+        margin: 0 0.5rem;
+    }
+}
