@@ -1,3 +1,10 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(201, 96, 140);
+    background-color: rgb(255, 147, 192);
+}
+
+
 .main-content {
     max-width: 1200px;
     margin: 2rem auto;
@@ -5,10 +12,10 @@
 }
 
 .welcome-message {
-    background-color: rgb(255, 147, 192);
+    background-color: rgb(255, 255, 255);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgb(76, 17, 53);
     text-align: center;
 }
 
