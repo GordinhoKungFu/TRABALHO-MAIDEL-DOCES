@@ -35,11 +35,27 @@ nav{
     margin-bottom: 1rem;
 }
 
+
 .main-content2 {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 2rem;
+    
 }
+
+.image-right {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .image-right img {
+    max-width: 240px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 74, 173, 0.3);
+    object-fit: cover;
+  }
+  
 
 .historia {
     background-color: rgb(255, 255, 255);
@@ -47,6 +63,8 @@ nav{
     border-radius: 10px;
     box-shadow: 0 4px 6px rgb(76, 17, 53);
     text-align: center;
+    flex: 1 1 50%;
+    padding-right: 12px;
 }
 
 .historia p {
