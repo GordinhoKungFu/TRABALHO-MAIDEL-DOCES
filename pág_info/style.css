@@ -4,6 +4,17 @@ body{
     background-color: rgb(255, 147, 192);
 }
 
+nav{
+    background-color: aqua;
+    margin: -8px;
+    padding: 2px;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
 
 .main-content {
     max-width: 1200px;
@@ -59,4 +70,14 @@ body{
     .nav-links li {
         margin: 0 0.5rem;
     }
+}
+
+footer {
+    background-color: aqua;
+    padding: 8px;
+    margin: -8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
