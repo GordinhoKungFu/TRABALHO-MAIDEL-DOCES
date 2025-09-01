@@ -24,6 +24,25 @@ body{
     margin-bottom: 1rem;
 }
 
+.main-content2 {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.historia {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(76, 17, 53);
+    text-align: center;
+}
+
+.historia p {
+    color: var(--primary-pink);
+    margin-bottom: 1rem;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
