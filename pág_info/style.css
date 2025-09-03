@@ -1,101 +1,175 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 96, 140);
-    background-color: rgb(255, 147, 192);
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(201, 96, 140);
+  background-color: rgb(255, 147, 192);
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-    background-color: aqua;
-    margin: -8px;
-    padding: 2px;
+nav {
+  background-color: aqua;
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-    height: 100px;
-    margin-top: 1px;
-    margin-left: 1px;
+.logo {
+  height: 100px;
+  margin-left: 5px;
 }
 
 .main-content {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.main-content2 {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.main-content3 {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.main-content4 {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
 }
 
 .welcome-message {
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(76, 17, 53);
-    text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(76, 17, 53);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .welcome-message h1 {
-    color: var(--primary-pink);
-    margin-bottom: 1rem;
+  color: rgb(201, 96, 140);
+  margin-bottom: 1rem;
 }
-
-
-.main-content2 {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-    
-}
-
-.image-right {
-    flex: 1 1 50%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .image-right img {
-    max-width: 240px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 74, 173, 0.3);
-    object-fit: cover;
-  }
-  
 
 .historia {
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(76, 17, 53);
-    text-align: center;
-    flex: 1 1 50%;
-    padding-right: 12px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(76, 17, 53);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .historia p {
-    color: var(--primary-pink);
-    margin-bottom: 1rem;
+  color: rgb(201, 96, 140);
+  margin-bottom: 1rem;
 }
 
+.produtos {
+  text-align: center;
+  margin: 2rem auto 20px auto;
+  max-width: 1140px;
+}
 
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 1rem;
-    }
-   
-    .nav-links {
-        margin-top: 1rem;
-        width: 100%;
-        justify-content: center;
-    }
-   
-    .nav-links li {
-        margin: 0 0.5rem;
-    }
+.produtos h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(201, 96, 140);
+  background-color: #fff; 
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.produto-lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.produto {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative; 
+}
+
+.produto:hover {
+  transform: translateY(-5px);
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto h3 {
+  margin-top: 10px;
+  color: rgb(201, 96, 140);
+}
+
+.produto p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.produto .destaque {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fff; 
+  color: rgb(201, 96, 140);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.image-right {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-right img {
+  max-width: 240px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 74, 173, 0.3);
+  object-fit: cover;
 }
 
 footer {
-    background-color: aqua;
-    padding: 8px;
-    margin: -8px;
-    text-align: center;
-    display: flex;
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  nav {
     flex-direction: column;
-    color: black;
+    text-align: center;
+  }
+
+  .produto-lista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-right {
+    justify-content: center;
+    margin-top: 1rem;
+  }
 }
