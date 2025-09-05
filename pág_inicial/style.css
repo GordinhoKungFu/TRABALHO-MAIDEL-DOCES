@@ -1,0 +1,88 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: aqua;
+    margin: -8px;
+    padding: 2px;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.card {
+  background-color: #ccc;
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card-image {
+  background-color: pink;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-add-cart {
+  background-color: pink;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.produto {
+  background-color: #d3d3d3;
+  width: 190px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: auto;
+}
+
+.imagem {
+  background-color: #ff92b7;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.nome-produto {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.descricao-produto {
+  font-size: 16px;
+  margin: 5px 0 15px 0;
+}
+
+.botao-carrinho {
+  background-color: #ff92b7;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+.botao-carrinho:hover {
+  background-color: #ff70a0;
+}
+.mensagem {
+  margin-top: 10px;
+  font-style: italic;
+  color: rgb(128, 0, 81);
+  font-size: 14px;
+}
