@@ -1,11 +1,9 @@
-/* Reset básico para consistência entre navegadores */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilos gerais */
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: #fffaf5;
@@ -13,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Barra de navegação */
 nav {
   background-color: #ffc6d3;
   padding: 15px 0;
@@ -74,7 +71,6 @@ nav {
   font-size: 0.8rem;
 }
 
-/* Banner principal */
 .banner {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
@@ -100,7 +96,6 @@ nav {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-/* Container de produtos */
 .produtos-container {
   max-width: 1200px;
   margin: 40px auto;
@@ -114,7 +109,6 @@ nav {
   color: #5a3e36;
 }
 
-/* Card de produto */
 .produto {
   background-color: #fff;
   border-radius: 10px;
@@ -196,7 +190,6 @@ nav {
   text-align: center;
 }
 
-/* Rodapé */
 footer {
   background-color: #ffc6d3;
   text-align: center;
@@ -205,7 +198,6 @@ footer {
   color: #5a3e36;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .nav-container {
       flex-direction: column;

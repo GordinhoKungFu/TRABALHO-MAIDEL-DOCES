@@ -1,9 +1,9 @@
 // Variável para controlar os itens no carrinho
 let itensCarrinho = 0;
 
-// Função para adicionar produto ao carrinho
+// function para adicionar as coisas no carrinho
 function adicionarCarrinho() {
-    // Incrementa a quantidade de itens no carrinho
+    // aumenta o número de coisas no carrinho
     itensCarrinho++;
     
     // Atualiza o contador visual do carrinho
@@ -50,6 +50,5 @@ document.head.insertAdjacentHTML('beforeend', `
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Página carregada com sucesso!');
     
-    // Aqui você pode adicionar mais funcionalidades no futuro
-    // como carregar produtos dinamicamente, etc.
+
 });
