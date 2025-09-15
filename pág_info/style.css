@@ -1,13 +1,13 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(201, 96, 140);
-  background-color: rgb(255, 147, 192);
+  background-color: #fffaf5;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: aqua;
+  background-color: #ffc6d3;
   padding: 8px;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ nav {
 }
 
 .welcome-message {
-  background-color: #fff;
+  background-color: #ffc6d3;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgb(76, 17, 53);
@@ -52,12 +52,12 @@ nav {
 }
 
 .welcome-message h1 {
-  color: rgb(201, 96, 140);
+  color: rgb(87, 7, 40);
   margin-bottom: 1rem;
 }
 
 .historia {
-  background-color: #fff;
+  background-color: #ffc6d3;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgb(76, 17, 53);
@@ -66,7 +66,7 @@ nav {
 }
 
 .historia p {
-  color: rgb(201, 96, 140);
+  color: rgb(87, 7, 40);
   margin-bottom: 1rem;
 }
 
