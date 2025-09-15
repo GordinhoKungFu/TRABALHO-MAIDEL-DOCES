@@ -15,4 +15,6 @@ Nessa sprint, a gente se focou em algumas coisas importantes para deixar o app D
 - Adicionar uma página para mostrar o cardápio;
 - Fazer a navegação funcionar direitinho em qualquer tamanho de tela, principalmente no celular;
 - Montar a página de detalhes do produto, com fotos, descrição e um botão para facilitar a compra.
+<br>
+<br>
 Esses foram os principais pontos que a gente planejou para essa sprint.
