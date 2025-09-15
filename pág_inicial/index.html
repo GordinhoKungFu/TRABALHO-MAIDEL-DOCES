@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Doces Finos - Página Inicial</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./script.js">
 </head>
 <body>
-
     <nav>
-        <img class="logo" src="../assets/images-removebg-preview (1).png" alt="logo da loja">
-    </nav>
-    <br>
-    <br>
-    <div class="produto">
-        <div class="imagem">
-            <img src="../assets/registrar-minha-marca-de-doces-caseiros.jpg" alt="produto1">
+        <div class="nav-container">
+            <img class="logo" src="../assets/images-removebg-preview (1).png" alt="Logo da Doceria">
+            <ul class="nav-menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="carrinho-icon">
+                <span id="contador-carrinho">0</span>
+                🛒
+            </div>
         </div>
-        <div class="nome-produto">Brigadeiro Gourmet</div>
-        <div class="descricao-produto">Doces finos caseiros, decorados e caseiros!</div>
-        <button class="botao-carrinho" onclick="adicionarCarrinho()">adicionar ao carrinho</button>
-        <div id="msg-carrinho" class="mensagem"></div>
-    </div>
-    
 
+    <header class="banner">
+        <h1>Doces Finos Caseiros</h1>
+        <p>Sabores que encantam e momentos que deliciam</p>
+    </header>
+
+    <main class="produtos-container">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <div class="imagem-produto">
+                <img src="../assets/registrar-minha-marca-de-doces-caseiros.jpg" alt="Brigadeiro Gourmet">
+            </div>
+            <div class="info-produto">
+                <div class="nome-produto">Brigadeiro Gourmet</div>
+                <div class="descricao-produto">Doces finos caseiros, decorados com muito carinho!</div>
+                <div class="preco-produto">R$ 3,50 (unidade)</div>
+                <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
+                <div id="msg-carrinho" class="mensagem"></div>
+            </div>
+        </div>
+        
+        <!-- Espaço para mais produtos no futuro -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Doces Finos Caseiros. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
