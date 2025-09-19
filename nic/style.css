@@ -32,7 +32,6 @@ nav a:hover {
   color: rgb(201, 96, 140);
 }
 
-/* Conteúdo principal */
 .main-content {
   max-width: 900px;
   margin: 2rem auto;
@@ -100,7 +99,6 @@ footer {
   font-size: 1rem;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
