@@ -1,111 +1,127 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 96, 140);
-    background-color: rgb(255, 147, 192);
-    margin: 0;
-    padding: 0;
-  }
-  
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(201, 96, 140);
+  background-color: rgb(255, 147, 192);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: aqua;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav .logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: rgb(76, 17, 53);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0 10px;
+  line-height: 100px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(201, 96, 140);
+}
+
+/* Conteúdo principal */
+.main-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.main-content h1 {
+  text-align: center;
+  color: rgb(201, 96, 140);
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.historia {
+  background-color: #fff;
+  padding: 1.8rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(76, 17, 53);
+  margin-bottom: 1.8rem;
+}
+
+.historia h2 {
+  color: rgb(201, 96, 140);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgb(201, 96, 140);
+  padding-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.historia ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.historia ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px dotted #c08050;
+  font-size: 1.1rem;
+  color: #4b1a3e;
+}
+
+.historia ul li:last-child {
+  border-bottom: none;
+}
+
+.item {
+  font-weight: 500;
+}
+
+.price {
+  font-weight: bold;
+  color: #b5396a;
+}
+
+footer {
+  background-color: aqua;
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   nav {
-    background-color: aqua;
-    padding: 8px 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  nav .logo {
-    height: 100px;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: rgb(76, 17, 53);
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0 10px;
-    line-height: 100px;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: rgb(201, 96, 140);
-  }
-  
-  .main-content {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-  }
-  
-  .main-content h1 {
+    flex-direction: column;
     text-align: center;
-    color: rgb(201, 96, 140);
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-  
-  .historia {
-    background-color: #fff;
-    padding: 1.8rem 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(76, 17, 53);
-    margin-bottom: 1.8rem;
-  }
-  
-  .historia h2 {
-    color: rgb(201, 96, 140);
-    margin-bottom: 1rem;
-    border-bottom: 2px solid rgb(201, 96, 140);
-    padding-bottom: 5px;
-    font-size: 1.8rem;
-  }
-  
-  .historia ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  .historia ul li {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px dotted #c08050;
-    font-size: 1.1rem;
-    color: #4b1a3e;
-  }
-  
-  footer {
-    background-color: aqua;
-    padding: 15px 10px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 1rem;
   }
 
-  @media (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    nav a {
-      padding: 10px 0;
-      line-height: normal;
-    }
-  
-    .historia ul li {
-      flex-direction: column;
-      align-items: flex-start;
-      border-bottom: none;
-      padding-bottom: 10px;
-    }
-  
-    .historia ul li span {
-      margin-bottom: 5px;
-    }
+  nav a {
+    padding: 10px 0;
+    line-height: normal;
   }
+
+  .historia ul li {
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: none;
+    padding-bottom: 10px;
+  }
+
+  .historia ul li span.price {
+    margin-top: 5px;
+  }
+}
+
   
