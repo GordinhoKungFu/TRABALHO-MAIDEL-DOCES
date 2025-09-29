@@ -1,22 +1,21 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(201, 96, 140);
-    background-color: #fffaf5;
+    background-color: rgb(255, 147, 192);
     margin: 0;
     padding: 0;
   }
   
   nav {
-    background-color: #ffc6d3;
-    padding: 15px 0;
+    background-color: aqua;
+    padding: 8px 20px;
     display: flex;
     align-items: center;
-    justify-content: center; 
   }
-
+  
   nav .logo {
     height: 100px;
-    margin-right: 5px; 
+    margin-right: 20px;
   }
   
   nav a {
@@ -78,23 +77,24 @@ body {
   }
   
   footer {
-    background-color: #ffc6d3;
+    background-color: aqua;
     padding: 15px 10px;
     text-align: center;
-    color: rgb(201, 96, 140);
+    color: black;
     font-weight: bold;
+    margin-top: 30px;
     font-size: 1rem;
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; 
   }
 
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
       text-align: center;
+    }
+  
+    nav a {
+      padding: 10px 0;
+      line-height: normal;
     }
   
     .historia ul li {
