@@ -150,10 +150,10 @@ nav {
 }
 
 footer {
-  background-color: aqua;
+  background-color: #ffc6d3;
   padding: 10px;
   text-align: center;
-  color: black;
+  color: rgb(201, 96, 140);
   margin-top: 30px;
 }
 
