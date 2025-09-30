@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(201, 96, 140);
+    background-color: #fffaf5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #ffc6d3;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-left: 5px;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+
+  .welcome-message {
+    background-color: #ffc6d3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(76, 17, 53);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .welcome-message h1 {
+    color: rgb(87, 7, 40);
+    margin-bottom: 1rem;
+  }
+
+  .main-content2 {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+
+  .contatos {
+    background-color: #ffc6d3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(76, 17, 53);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contatos p {
+    color: rgb(87, 7, 40);
+    margin-bottom: 1rem;
+  }
