@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fffaf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background:#ffc6d3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgb(87, 7, 40);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(87, 7, 40);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: rgb(87, 7, 40);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(160, 16, 76);
+}
+
+#response {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(87, 7, 40);
+}
+
+/* Responsividade para telas menores (móveis) */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        max-width: 90%;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    input, textarea {
+        padding: 8px;
+    }
+    
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

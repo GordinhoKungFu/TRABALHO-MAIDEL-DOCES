@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="cadastroForm">
+            <label for="nome">Nome (obrigatório):</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="telefone">Telefone (obrigatório):</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="cep">CEP (obrigatório):</label>
+            <input type="text" id="cep" name="cep" required>
+            
+            <label for="endereco">Endereço (obrigatório):</label>
+            <textarea id="endereco" name="endereco" rows="3" required></textarea>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
