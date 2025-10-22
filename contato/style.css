@@ -1,59 +1,117 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 96, 140);
-    background-color: #fffaf5;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav {
-    background-color: #ffc6d3;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 100px;
-    margin-left: 5px;
-  }
-  
-  .main-content {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-  }
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(201, 96, 140);
+  background-color: #fffaf5;
+  margin: 0;
+  padding: 0;
+}
 
-  .welcome-message {
-    background-color: #ffc6d3;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(76, 17, 53);
-    text-align: center;
-    margin-bottom: 20px;
-  }
+nav {
+  background-color: #ffc6d3;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
 
-  .welcome-message h1 {
-    color: rgb(87, 7, 40);
-    margin-bottom: 1rem;
-  }
+.logo {
+  height: 100px;
+  margin-left: 5px;
+}
 
-  .main-content2 {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-  }
+.main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
 
-  .contatos {
-    background-color: #ffc6d3;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(76, 17, 53);
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .contatos p {
-    color: rgb(87, 7, 40);
-    margin-bottom: 1rem;
-  }
+.welcome-message h1 {
+  font-size: 2.5em;
+  color: rgb(87, 7, 40);
+  margin-bottom: 10px;
+}
+
+.heart {
+  font-size: 2em;
+  color: #e91e63;
+  margin: 20px 0;
+}
+
+.welcome-message p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.main-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contatos, .pagamentos {
+  background-color: #ffc6d3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contatos h2, .pagamentos h2 {
+  color: rgb(87, 7, 40);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contatos p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contatos i {
+  margin-right: 10px;
+  color: rgb(87, 7, 40);
+  font-size: 1.5em;
+}
+
+.pagamentos .payment-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pagamentos .payment-icons div {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.pagamentos .payment-icons i {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.pagamentos .payment-icons i {
+  font-size: 1.5em;
+}
+
+/* Celulares muito pequenos (até 320px) */
+@media (max-width: 320px) {
+.welcome-message h1 {
+  font-size: 1.6em;
+}
+.contatos, .pagamentos {
+  padding: 10px;
+}
+.contatos h2, .pagamentos h2 {
+  font-size: 1.2em;
+}
+.pagamentos .payment-icons div {
+  font-size: 0.9em;
+}
+}
