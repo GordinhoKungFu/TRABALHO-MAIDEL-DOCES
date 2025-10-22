@@ -1,120 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doces Finos - Página Inicial</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doces & Bolos</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/website/css/uicons-outline-rounde.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <img class="logo" src="/assets/images-removebg-preview (1).png" alt="Logo da Doceria">
-            <ul class="nav-menu">
-                <li><a href="../pág_inicial/index.html">Início</a></li>
-                <li><a href="/nic/cardapio.html">Cardápio</a></li>
-                <li><a href="/pág_info/index.html">Sobre</a></li>
-                <li><a href="/contato/contato.html">Contato</a></li>
-            </ul>
-            <div class="carrinho-icon">
-                <span id="contador-carrinho">0</span>
-                🛒
-            </div>
-        </div>
-    </nav>
+  <nav>
+    <div class="nav-container">
+      <img class="logo" src="../assets/images-removebg-preview (1).png" alt="logo da loja">
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="carrinho-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrinho">0</span>
+      </div>
+    </div>
+  </nav>
 
-    <header class="banner">
-        <h1>Doces Finos Caseiros</h1>
-        <p>Sabores que encantam e momentos que deliciam</p>
-    </header>
+  <div class="banner" id="home">
+    <h1>Seja bem-vindo(a) Loja de Doces & Bolos!</h1>
+    <p>Aqui está um pouco da nossa história!</p>
+  </div>
 
-    <main class="produtos-container">
-        <h2>Nossos Produtos</h2>
-        <div class="produtos-grid">
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="/assets/registrar-minha-marca-de-doces-caseiros.jpg" alt="Brigadeiro Gourmet">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Brigadeiro Gourmet</div>
-                    <div class="descricao-produto">Doces finos caseiros, decorados com muito carinho!</div>
-                    <div class="preco-produto">R$ 3,50 (unidade)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div id="msg-carrinho" class="mensagem"></div>
-                </div>
-            </div>
-            
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bolo Decorado">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Bolo Decorado</div>
-                    <div class="descricao-produto">Bolos personalizados para todas as ocasiões especiais</div>
-                    <div class="preco-produto">R$ 85,00 (kg)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div class="mensagem"></div>
-                </div>
-            </div>
-            
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="/assets/cupcake2.jpg" alt="Cupcake Premium">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Cupcake Premium</div>
-                    <div class="descricao-produto">Mini bolos decorados com coberturas especiais</div>
-                    <div class="preco-produto">R$ 8,00 (unidade)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div class="mensagem"></div>
-                </div>
-            </div>
-            
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="/assets/trufas.jpg" alt="Trufas Finas">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Trufas Finas</div>
-                    <div class="descricao-produto">Trufas de chocolate belga com recheios surpresa</div>
-                    <div class="preco-produto">R$ 5,00 (unidade)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div class="mensagem"></div>
-                </div>
-            </div>
-            
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="/assets/doceniho.jpg" alt="Doce de Leite Ninho">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Doce de Leite Ninho</div>
-                    <div class="descricao-produto">Brigadeiro branco com leite ninho e coco</div>
-                    <div class="preco-produto">R$ 4,00 (unidade)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div class="mensagem"></div>
-                </div>
-            </div>
-            
-            <div class="produto">
-                <div class="imagem-produto">
-                    <img src="/assets/receita-de-beijinho-2.jpg" alt="Beijinho Premium">
-                </div>
-                <div class="info-produto">
-                    <div class="nome-produto">Beijinho Premium</div>
-                    <div class="descricao-produto">Beijinho com coco fresco e leite condensado</div>
-                    <div class="preco-produto">R$ 3,50 (unidade)</div>
-                    <button class="botao-carrinho" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
-                    <div class="mensagem"></div>
-                </div>
-            </div>
-        </div>
-    </main>
+  <div id="historias-container">
+    <!-- As histórias serão carregadas dinamicamente via JavaScript -->
+  </div>
 
-    <footer>
-        <p>&copy; Desde 2022 confeitaria Doce Encanto. Todos os direitos reservados.</p>
-    </footer>
+  <div class="produtos-container" id="produtos">
+    <h2>Destaques</h2>
+    <div class="produtos-grid" id="produtos-lista">
+      <!-- Os produtos serão carregados dinamicamente via JavaScript -->
+    </div>
+    <div class="mensagem" id="msg-carrinho"></div>
+  </div>
 
-    <script src="./script.js"></script>
+  <footer id="final">
+    <p>&copy; Desde 2022 Confeitaria Doce Encanto.</p>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
