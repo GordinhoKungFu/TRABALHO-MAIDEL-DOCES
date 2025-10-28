@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Doces - Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Doces & Bolos</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+                <div class="carrinho-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="contador-carrinho">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner" id="home">
+            <div class="banner-content">
+                <h1>Bem-vindo à Doces & Bolos</h1>
+                <p>Os melhores doces e bolos da cidade!</p>
+            </div>
+        </section>
+
+        <section class="produtos-section" id="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="produtos-grid" id="produtos-lista">
+                    <!-- Produtos serão inseridos via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="carrinho-section" id="carrinho">
+            <div class="container">
+                <h2>Seu Carrinho</h2>
+                <div class="carrinho-content">
+                    <div class="carrinho-itens" id="carrinho-itens">
+                        <!-- Itens do carrinho serão inseridos via JavaScript -->
+                        <p class="carrinho-vazio" id="carrinho-vazio">Seu carrinho está vazio</p>
+                    </div>
+                    <div class="carrinho-total">
+                        <div class="total-info">
+                            <h3>Total: R$ <span id="total-preco">0.00</span></h3>
+                            <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Doces & Bolos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
