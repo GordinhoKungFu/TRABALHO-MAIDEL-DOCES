@@ -10,30 +10,6 @@ async function carregarProdutos() {
         exibirProdutos(produtos);
     } catch (error) {
         console.error('Erro ao carregar produtos:', error);
-        // Fallback: exibir produtos estáticos caso a API não esteja disponível
-        exibirProdutos([
-            {
-                id: 1,
-                nome: "Bolo de Chocolate",
-                descricao: "Feito com chocolate belga e recheio cremoso, perfeito para festas e ocasiões especiais.",
-                imagem: "./assets/bolo.png",
-                preco: 45.90
-            },
-            {
-                id: 2,
-                nome: "Brigadeiro Gourmet",
-                descricao: "Deliciosos brigadeiros enrolados à mão, cobertos com granulado belga.",
-                imagem: "./assets/registrar-minha-marca-de-doces-caseiros.jpg",
-                preco: 2.50
-            },
-            {
-                id: 3,
-                nome: "Torta de Morango",
-                descricao: "Base crocante, creme de baunilha e morangos frescos por cima.",
-                imagem: "./assets/torta.png",
-                preco: 35.00
-            }
-        ]);
     }
 }
 
@@ -45,21 +21,7 @@ async function carregarHistorias() {
         exibirHistorias(historias);
     } catch (error) {
         console.error('Erro ao carregar histórias:', error);
-        // Fallback: exibir histórias estáticas caso a API não esteja disponível
-        exibirHistorias([
-            {
-                id: 1,
-                conteudo: "A Doce Encanto é uma loja especializada em doces artesanais e bolos personalizados, localizada no centro da cidade. Fundada há mais de dez anos, a empresa consolidou-se pela qualidade excepcional de seus produtos e pelo atendimento dedicado aos clientes."
-            },
-            {
-                id: 2,
-                conteudo: "Utilizando ingredientes selecionados e técnicas tradicionais, a Doce Encanto oferece uma variedade diversificada que inclui bolos para eventos especiais, sobremesas finas, doces caseiros e opções personalizadas conforme a necessidade do cliente. A loja também preza pela inovação, desenvolvendo novas receitas que acompanham as tendências do mercado."
-            },
-            {
-                id: 3,
-                conteudo: "Além do sabor diferenciado, a Doce Encanto valoriza o ambiente acolhedor, proporcionando uma experiência agradável para os visitantes. A combinação entre tradição, qualidade e atendimento faz da loja uma referência na região para quem busca produtos de confeitaria refinados e confiáveis."
-            }
-        ]);
+
     }
 }
 
