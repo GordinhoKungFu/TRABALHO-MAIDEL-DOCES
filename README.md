@@ -13,22 +13,23 @@ Funcionalidades Principais
 - Suporte ao Cliente: página com os tópicos de como entrar em contato, sugestões ou suporte direto com a equipe da Doce Encanto.
 - Modo Responsivo: Compatível com dispositivos móveis e desktops, garantindo uma experiência fluida em qualquer tela.
 <br>
+<br>
 Como Usar
 - Cadastre-se: Crie uma conta gratuita com seu e-mail ou login social.
 - Explore o Catálogo: Navegue pelo catálogo e pelo cardápio, popularidade ou novidades.
 - Faça sua Encomenda: Adicione itens ao carrinho, revise o pedido e confirme o pagamento.
 <br>
+<br>
 Tecnologias Utilizadas
 - Frontend: React Native (para versões mobile), com design responsivo usando CSS.
-- Backend: Node.js com Express.js para APIs RESTful.
-- Autenticação: JWT (JSON Web Tokens) para segurança.
+- Backend: Node.js 
 - Instalação para Desenvolvedores
 <br>
 Contribuição
 Adoramos contribuições! Se você quiser melhorar o app, reporte bugs ou sugira novas funcionalidades, abra uma issue no GitHub ou envie um pull request. Siga nossas diretrizes de contribuição no arquivo CONTRIBUTING.md.
 <br>
+<br>
 Contato
-Site: 
 E-mail: 
 Redes Sociais: Siga-nos no Instagram (@doceencanto) para novidades e promoções!
 Aproveite os doces do Doce Encanto e torne suas encomendas ainda mais encantadoras! 
