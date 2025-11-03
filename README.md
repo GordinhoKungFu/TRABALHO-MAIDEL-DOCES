@@ -25,11 +25,11 @@ Tecnologias Utilizadas
 - Backend: Node.js 
 - Instalação para Desenvolvedores
 <br>
-Contribuição
-Adoramos contribuições! Se você quiser melhorar o app, reporte bugs ou sugira novas funcionalidades, abra uma issue no GitHub ou envie um pull request. Siga nossas diretrizes de contribuição no arquivo CONTRIBUTING.md.
-<br>
 <br>
 Contato
-E-mail: 
+<br>
+E-mail:
+<hr>
 Redes Sociais: Siga-nos no Instagram (@doceencanto) para novidades e promoções!
+<hr>
 Aproveite os doces do Doce Encanto e torne suas encomendas ainda mais encantadoras! 
